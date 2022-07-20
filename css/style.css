@@ -6,13 +6,30 @@ figcaption{
   text-align: center !important;
   color: black !important;
   text-transform: uppercase !important;
+  margin-top: 10px;
+  font-size: 16px;
 }
 
 h2{
   font-weight:300 !important;
 }
 
+a:hover {
+    color:inherit;
+    padding:3px 3px 3px 3px;
+    border: 1px solid black;
+}
 
+.language-button{
+  transform:translateX(10vw);
+  font-size: 15px;
+}
+
+
+.footer-heading{
+  font-weight:600 !important;
+  text-transform: uppercase;
+}
 
 .font-size-10 {
   font-size: 10px; }
@@ -267,7 +284,7 @@ h1, h2, h3, h4, h5,
   color: rgba(255, 255, 255, 0.5); }
 
 .btn {
-  border-radius: 30px;
+  border-radius: 0px;
   padding: 10px 20px;
   text-decoration: none;
   font-weight: bold; }
@@ -1745,7 +1762,7 @@ h1, h2, h3, h4, h5,
   display: inline-block;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: 0%;
   background: rgba(1, 210, 142, 0.2);
   position: relative; }
   .social_29128 a span {
@@ -1761,7 +1778,7 @@ h1, h2, h3, h4, h5,
   .social_29128.white a span {
     color: black; }
   .social_29128.white a:hover {
-    background: #fff; }
+    background: inherit;}
 
 .btn-video_38929 {
   position: relative;
@@ -1855,8 +1872,8 @@ h1, h2, h3, h4, h5,
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    border: 1px solid black;
 }
+
 
 .navbar-nav .nav-item .nav-link.active {
     color: #bababa;
