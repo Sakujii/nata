@@ -8,6 +8,12 @@ figcaption{
   text-transform: uppercase !important;
 }
 
+h2{
+  font-weight:300 !important;
+}
+
+
+
 .font-size-10 {
   font-size: 10px; }
 
@@ -1849,7 +1855,7 @@ h1, h2, h3, h4, h5,
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: black;
+    border: 1px solid black;
 }
 
 .navbar-nav .nav-item .nav-link.active {
