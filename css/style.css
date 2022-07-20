@@ -3,9 +3,9 @@ html {
   overflow-x: hidden; }
 
 figcaption{
-  text-align: center;
-  color: black;
-  text-transform: uppercase;
+  text-align: center !important;
+  color: black !important;
+  text-transform: uppercase !important;
 }
 
 .font-size-10 {
@@ -456,6 +456,7 @@ h1, h2, h3, h4, h5,
 .navbar{
   position: static;
   background-color: white !important;
+  color: black !important;
   justify-content: center;
   align-items: center;
   transform: translateX(0px);
@@ -599,6 +600,10 @@ h1, h2, h3, h4, h5,
           margin-top: 0px;
           visibility: visible;
           opacity: 1; }
+
+          .site-navbar .site-logo a {
+            color: black;
+        }
 
 .site-mobile-menu {
   width: 300px;
