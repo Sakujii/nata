@@ -20,6 +20,10 @@ a:hover {
     border: 1px solid black;
 }
 
+.icon{
+    background-color: inherit !important;
+}
+
 .language-button{
   transform:translateX(10vw);
   font-size: 15px;
@@ -287,14 +291,15 @@ h1, h2, h3, h4, h5,
   border-radius: 0px;
   padding: 10px 20px;
   text-decoration: none;
-  font-weight: bold; }
+  font-weight: bold;
+  }
   .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
   .btn.btn-outline-white {
     border-color: #fff;
-    background: transparent;
+    background: #fff;
     color: #fff; }
     .btn.btn-outline-white:hover {
       background: #fff;
