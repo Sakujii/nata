@@ -15,9 +15,13 @@ h2{
 }
 
 a:hover {
-    color:inherit;
-    padding:3px 3px 3px 3px;
-    border: 1px solid black;
+  color:inherit;
+}
+
+header a:hover,
+footer a:hover{
+  padding:3px 3px 3px 3px;
+  border: 1px solid black;
 }
 
 
