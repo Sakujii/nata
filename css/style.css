@@ -18,6 +18,12 @@ a:hover {
   color:inherit;
 }
 
+#skali{
+  @media (min-width: 768px) {
+    style="transform:translateY(5%);
+  }
+}
+
 header a:hover,
 footer a:hover{
   padding:3px 3px 3px 3px;
